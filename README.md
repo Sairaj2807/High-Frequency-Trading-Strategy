@@ -69,15 +69,13 @@ cd kalman-hft-strategy
 [2025-08-14 10:01:45] Tick 105 | Price ₹453.25 | KF ₹453.75
 [2025-08-14 10:01:46] BUY SIGNAL | RelDiff 0.00111
 [2025-08-14 10:01:47] BUY ORDER RESPONSE: {"status":"success"}
-
+---
 ##📦 Dependencies
 The project requires:
-
-
-numpy
-websockets
-requests
-google.protobuf
+- numpy
+- websockets
+- requests
+- google.protobuf
 
 
 

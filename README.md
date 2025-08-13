@@ -20,16 +20,16 @@ It can also place simulated orders in the **Upstox Sandbox environment** for saf
 ---
 
 ## 📂 Project Structure
-├── config.py # API tokens, instrument details, trade quantity
-├── kalman.py # Kalman Filter implementation
-├── logger.py # Logging utility
-├── main.py # Main strategy logic
-├── trader.py # Order placement & trade logging
-├── MarketDataFeedV3_pb2.py # Protobuf parser for Upstox feed
-├── requirements.txt # Python dependencies
-├── strategy.log # Runtime logs (generated)
-├── trades.csv # Trade history (generated)
-└── README.md # Project documentation 
+- ├── config.py # API tokens, instrument details, trade quantity
+- ├── kalman.py # Kalman Filter implementation
+- ├── logger.py # Logging utility
+- ├── main.py # Main strategy logic
+- ├── trader.py # Order placement & trade logging
+- ├── MarketDataFeedV3_pb2.py # Protobuf parser for Upstox feed
+- ├── requirements.txt # Python dependencies
+- ├── strategy.log # Runtime logs (generated)
+- ├── trades.csv # Trade history (generated)
+- └── README.md # Project documentation 
 
 
 ---

@@ -41,24 +41,28 @@ It can also place simulated orders in the **Upstox Sandbox environment** for saf
 git clone https://github.com/yourusername/kalman-hft-strategy.git
 cd kalman-hft-strategy
 
-##📡 How It Works
-Authorize Feed – Retrieves feed authorization from Upstox API
+---
 
-Connect to WebSocket – Subscribes to live market data for the selected instrument
+## 📡 How It Works
+- Authorize Feed – Retrieves feed authorization from Upstox API
 
-Kalman Filter Update – Processes each incoming tick to estimate the true price
+- Connect to WebSocket – Subscribes to live market data for the selected instrument
 
-Signal Generation – Compares estimated price with LTP:
+- Kalman Filter Update – Processes each incoming tick to estimate the true price
 
-BUY if estimate is significantly higher than LTP
+- Signal Generation – Compares estimated price with LTP:
 
-SELL if estimate is significantly lower than LTP
+- BUY if estimate is significantly higher than LTP
 
-Trade Execution – Sends market orders via Upstox Sandbox API
+- SELL if estimate is significantly lower than LTP
 
-Trade Logging – Saves all trades to trades.csv
+- Trade Execution – Sends market orders via Upstox Sandbox API
 
-##📊 Example Output
+- Trade Logging – Saves all trades to trades.csv
+
+---
+
+## 📊 Example Output
 [2025-08-14 10:00:01] Starting Kalman strategy...
 [2025-08-14 10:00:02] WebSocket connected...
 [2025-08-14 10:00:03] Subscription sent for: NSE_FO|55775
